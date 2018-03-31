@@ -1,0 +1,53 @@
+//META{"name":"Kotori","description":"The smoothest and crispest theme in discord's history.","author":"Kotori#4236","version":"1.0"}*//{}
+
+/* IMPORT CSS FROM GITHUB, this is the ENTIRETY and wholesome code that supports this file*/
+@import url("https://rawgit.com/KotoriXIII/OfficialWidowmakerTheme/master/Logic.css");
+
+/* IMPORTANT: Change '.old' to '.new' for the new titlebar and vice versa, USE kAMINARIKULLUA's titlebar theme for neat fx */
+@import url("https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.old.css");
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
+---------------------------------------------------------------------------------------------------------------------------------------------
+-> If some elements are broken, there is either: A new theme version available, or Discord has just updated and you need to redownload Zere's copy.
+-> If you notice elements are broken for a prolonged amount of time, lmk on discord Kotori#4236. 
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/* ========== CUSTOMIZABLE VARIABLES ========== */
+:root {
+    /* COLORS */
+	--main-color: #C0C0C0;
+	--hover-color: #A9A9A9;
+	--channel-color: #FEFFFF;
+	
+    /* IMAGES */
+	--background-image: url(https://static.zerochan.net/Attack.on.Titan.full.1495341.jpg);	
+	--dm-image: url(https://vignette.wikia.nocookie.net/darksouls/images/4/45/-SnK-Petra-Ral-shingeki-no-kyojin-attack-on-titan-35631955-450-600.jpg/revision/latest?cb=20140325132121);	
+	--profile-image: url(https://cdna.artstation.com/p/assets/images/images/006/079/376/large/way-way-juren4.jpg?1495894329);
+	--nsfw-image: url(https://s-media-cache-ak0.pinimg.com/236x/74/a4/e6/74a4e6b39c343529e2933bd8f59a696e.jpg);
+	
+    /* MISC */
+	--background-blur: 0px;
+	
+	/* deprecated value */
+	--background-brightness: 10%; 
+
+	--emoji-size: 13px;
+}
+
+  /* optionally adjust background brightness, have to change variable stuff from background), for now adjust using the bottom RGBA. Change the last value from 0 - 1. 1 being black */
+.layers-20RVFW {
+  background: rgba(0,0,0, 0.8) !important;
+}
+
+/* cool tiny transparency when in a channel call */
+.theme-dark .private-channel-call {
+    background-color: rgba(0, 0 0, 0.3) !important;
+}
+.video-3lOWa6 {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+=
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
